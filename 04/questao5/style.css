@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.quadradovermelho {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.quadradoazul {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    opacity: 0.5;
+    border-radius: 10px;
+
+}
+
+main div{
+    display: block;
+}
+
+#second div + div {
+    position: relative;
+    left: 50px;
+}
+#third div + div {
+    position: absolute;
+    bottom: -300px;
+    left: 70px;
+}
+#fourth div + div {
+    position: fixed;
+    bottom: 30px;
+    right: 0%;
+}
+
+
+

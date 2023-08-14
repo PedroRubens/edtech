@@ -1,0 +1,38 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: darkgray;
+}
+
+h1, h2 {
+    font-family: "Play", sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+ul.decimal-list {
+    list-style-type: decimal;
+    display: flex;
+}
+
+table.zebra-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.zebra-table th, table.zebra-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.zebra-table tr:nth-child(odd) {
+    background-color: lightgray;
+}
